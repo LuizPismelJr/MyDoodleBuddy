@@ -28,7 +28,9 @@ public class DistanceManager : MonoBehaviour
     {
         while (true)
         {
+            VelocityChange();
             yield return new WaitForSeconds(externalVelocity);
+            Debug.Log("external" + externalVelocity);
             distance++;
             txt_distance.text = distance.ToString() + display;
         }

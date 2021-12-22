@@ -4,21 +4,14 @@ using UnityEngine;
 
 public class CollisionProp : MonoBehaviour
 {
-    [Header("Todos os Pivots")]
-    [SerializeField] GameObject[] pivots;
+    [Header("Ponto de renascimento")]
+    [SerializeField]GameObject spotToReborn;
 
-    private void Update()
+    private void OnTriggerEnter2D(Collider2D other)
     {
-        PositionCheck();
-    }
-
-    void PositionCheck() 
-    {
-        if(this.transform.position.x <= pivots[1].transform.position.x) 
+        if (other.gameObject.layer == 9)
         {
-            this.transform.position = new Vector3 (pivots[0].transform.position.x,
-                                                   this.transform.position.y,
-                                                   this.transform.position.z);
+            this.transform.position = spotToReborn.transform.position;
         }
     }
 }

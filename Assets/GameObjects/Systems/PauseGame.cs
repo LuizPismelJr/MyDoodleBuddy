@@ -18,5 +18,4 @@ public class PauseGame : MonoBehaviour
             isPaused = false;
         }
     }
-
 }
