@@ -4,11 +4,18 @@ using UnityEngine;
 
 public class CollisionPlayer : MonoBehaviour
 {
+    EnergyPlayer energyPlayer;
+
+    private void Awake()
+    {
+        energyPlayer = GetComponent<EnergyPlayer>();
+    }
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.layer == 7) 
         {
-            Debug.Log("Sifudeu_Parceiro");
+            energyPlayer.PlayerDied();
         }
     }
 
@@ -16,7 +23,7 @@ public class CollisionPlayer : MonoBehaviour
     {
         if(collision.gameObject.layer == 8) 
         {
-            Debug.Log("Tomou na kra");
+            
         }
     }
 }

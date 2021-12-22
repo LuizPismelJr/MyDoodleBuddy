@@ -32,7 +32,8 @@ public class MovementPlayer : MonoBehaviour
         Vector3 where = new Vector3(playerPosition.transform.position.x,
                                     transform.position.y,
                                     transform.position.z);
-        transform.position = Vector3.MoveTowards(transform.position, where, 0.04f);
+
+        transform.position = Vector3.MoveTowards(transform.position, where, 0.04f * Time.deltaTime);
     }
 
 }

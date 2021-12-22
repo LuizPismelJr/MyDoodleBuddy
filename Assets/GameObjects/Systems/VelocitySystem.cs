@@ -22,7 +22,7 @@ public class VelocitySystem : MonoBehaviour
 
     void Update()
     {
-        CountingToAcelerate();
+        //CountingToAcelerate();
     }
 
     void CountingToAcelerate() 
