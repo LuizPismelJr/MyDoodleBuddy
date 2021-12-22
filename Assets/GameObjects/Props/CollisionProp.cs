@@ -14,7 +14,7 @@ public class CollisionProp : MonoBehaviour
 
     public void PivotRestartPosition() 
     {
-        if (this.transform.position.x > pivot[1].transform.position.x) 
+        if (this.transform.position.x < pivot[1].transform.position.x) 
         {
             this.transform.position = new Vector3(pivot[0].transform.position.x,
                                                   this.transform.position.y,

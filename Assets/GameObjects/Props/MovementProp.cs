@@ -22,7 +22,7 @@ public class MovementProp : MonoBehaviour
     {
         if (this.transform.position.x > pivot[1].transform.position.x) 
         {
-            this.transform.position += new Vector3(speed * Time.deltaTime, 0, 0);
+            this.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
         }
     }
 }
