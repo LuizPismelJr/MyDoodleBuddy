@@ -4,15 +4,16 @@ using UnityEngine;
 
 public class EnergyPlayer : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    [Header("Pause Game")]
+    [SerializeField]PauseGame pauseGame;
 
-    // Update is called once per frame
-    void Update()
+    [Header("Canvas")]
+    [SerializeField] GameObject canvasControles, canvasDeath;
+
+    public void PlayerDied()
     {
-        
+        pauseGame.Pause();
+        canvasControles.SetActive(false);
+        canvasDeath.SetActive(true);
     }
 }
