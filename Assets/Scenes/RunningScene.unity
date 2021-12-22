@@ -1051,7 +1051,7 @@ MonoBehaviour:
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
-  speed: 0
+  speed: 4
 --- !u!114 &433953142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1894,7 +1894,7 @@ MonoBehaviour:
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
-  speed: 0
+  speed: 4
 --- !u!114 &1058215632
 MonoBehaviour:
   m_ObjectHideFlags: 0
