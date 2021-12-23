@@ -31,7 +31,7 @@ public class CollisionPlayer : MonoBehaviour
 
         if (collision.gameObject.layer == 10)
         {
-            setEnergyBar.SetEnergy(+1);
+            setEnergyBar.SetEnergy(+6);
         }
     }
 }
