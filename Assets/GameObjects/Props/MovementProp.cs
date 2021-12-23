@@ -7,10 +7,8 @@ public class MovementProp : MonoBehaviour
     [Header("Velocity System")]
     [SerializeField] VelocitySystem velocitySystem;
 
-    [Header("Todos os Pivots")]
-    [SerializeField] GameObject[] pivots;
-
-    int currentPivot;
+    [Header("Pivots")]
+    [SerializeField] GameObject[] pivot;
 
     [Header("velocidade")]
     [SerializeField] float speed;
@@ -22,10 +20,9 @@ public class MovementProp : MonoBehaviour
 
     void MoveTowardsPivot()
     {
-        if (this.transform.position.x > pivots[1].transform.position.x)
+        if (this.transform.position.x > pivot[1].transform.position.x) 
         {
-            this.transform.position += new Vector3(-speed * Time.deltaTime,0,0);
+            this.transform.position += new Vector3(-speed * Time.deltaTime, 0, 0);
         }
     }
-
 }

@@ -4,21 +4,24 @@ using UnityEngine;
 
 public class CollisionProp : MonoBehaviour
 {
-    [Header("Todos os Pivots")]
-    [SerializeField] GameObject[] pivots;
+    [Header("Pivots")]
+    [SerializeField] GameObject[] pivot;
 
     private void Update()
     {
-        PositionCheck();
+        PivotRestartPosition();
     }
 
-    void PositionCheck() 
+    public void PivotRestartPosition() 
     {
-        if(this.transform.position.x <= pivots[1].transform.position.x) 
+        if (this.transform.position.x < pivot[1].transform.position.x) 
         {
-            this.transform.position = new Vector3 (pivots[0].transform.position.x,
-                                                   this.transform.position.y,
-                                                   this.transform.position.z);
+            this.transform.position = new Vector3(pivot[0].transform.position.x,
+                                                  this.transform.position.y,
+                                                  this.transform.position.z);
+
         }
     }
+
+
 }

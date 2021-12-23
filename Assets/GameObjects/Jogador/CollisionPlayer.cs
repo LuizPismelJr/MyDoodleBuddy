@@ -23,7 +23,7 @@ public class CollisionPlayer : MonoBehaviour
     {
         if(collision.gameObject.layer == 8) 
         {
-            
+            Debug.Log("deus me dai forças");
         }
     }
 }
