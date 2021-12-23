@@ -6,6 +6,9 @@ public class CollisionPlayer : MonoBehaviour
 {
     EnergyPlayer energyPlayer;
 
+    [Header("Energy Bar")]
+    [SerializeField] SetEnergiBar setEnergyBar;
+
     private void Awake()
     {
         energyPlayer = GetComponent<EnergyPlayer>();
@@ -23,7 +26,12 @@ public class CollisionPlayer : MonoBehaviour
     {
         if(collision.gameObject.layer == 8) 
         {
-            Debug.Log("deus me dai forças");
+            setEnergyBar.SetEnergy(-1);
+        }
+
+        if (collision.gameObject.layer == 10)
+        {
+            setEnergyBar.SetEnergy(+1);
         }
     }
 }
