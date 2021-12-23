@@ -4,18 +4,27 @@ using UnityEngine;
 
 public class MovementProp : MonoBehaviour
 {
-    [Header("Velocity System")]
-    [SerializeField] VelocitySystem velocitySystem;
-
     [Header("Pivots")]
     [SerializeField] GameObject[] pivot;
 
     [Header("velocidade")]
     [SerializeField] float speed;
 
+    [Header("DistanceManager")]
+    [SerializeField] DistanceManager distanceManager;
+
     private void Update()
     {
         MoveTowardsPivot();
+        SpeedGoesUp();
+    }
+
+    private void SpeedGoesUp() 
+    {
+        if (distanceManager.KnowingWhenToRun()) 
+        {
+            speed += 0.05f;
+        }
     }
 
     void MoveTowardsPivot()

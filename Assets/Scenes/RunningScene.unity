@@ -183,11 +183,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &3200484
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -499,11 +499,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &75490345
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -730,6 +730,7 @@ MonoBehaviour:
   pauseGame: {fileID: 1279325620}
   canvasControles: {fileID: 581774380}
   canvasDeath: {fileID: 9269509}
+  setEnergyBar: {fileID: 1237626551}
 --- !u!1 &113205935
 GameObject:
   m_ObjectHideFlags: 0
@@ -790,11 +791,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &113205939
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -906,11 +907,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &130436828
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1098,11 +1099,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &136249323
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1215,11 +1216,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &159042491
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1489,11 +1490,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &171740546
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1605,11 +1606,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &197144646
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1721,11 +1722,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &198026555
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1838,11 +1839,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &206575430
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1981,11 +1982,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &210153849
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2258,11 +2259,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &248125743
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2431,11 +2432,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &264410897
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2574,11 +2575,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &349910030
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2688,6 +2689,7 @@ RectTransform:
   m_Children:
   - {fileID: 130658584}
   - {fileID: 212574891}
+  - {fileID: 1237626550}
   m_Father: {fileID: 395044591}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2787,7 +2789,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1337683141}
-  m_RootOrder: 2
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &354591321
 MonoBehaviour:
@@ -2884,13 +2886,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
-  speed: 4
+  speed: 8
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &368290057
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3044,11 +3046,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!114 &433953142
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3124,11 +3126,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &450781090
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3240,11 +3242,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &487355709
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3356,11 +3358,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &515485529
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -3726,13 +3728,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
-  speed: 4
+  speed: 8
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &589773510
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3870,11 +3872,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &592912599
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4043,11 +4045,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &595980041
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4301,13 +4303,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
-  speed: 4
+  speed: 8
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &712175997
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4480,13 +4482,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
-  speed: 4
+  speed: 8
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &730886896
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4624,11 +4626,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &742861824
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -4772,11 +4774,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &748823730
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4866,6 +4868,7 @@ GameObject:
   - component: {fileID: 901045588}
   - component: {fileID: 901045587}
   - component: {fileID: 901045585}
+  - component: {fileID: 901045586}
   m_Layer: 6
   m_Name: GroundTeste (3)
   m_TagString: Untagged
@@ -4902,6 +4905,23 @@ MonoBehaviour:
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
+--- !u!114 &901045586
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 901045583}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pivot:
+  - {fileID: 1628471577}
+  - {fileID: 1354712037}
+  speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &901045587
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5040,11 +5060,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &903498782
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5182,11 +5202,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &913586770
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5298,11 +5318,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &914322229
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5468,6 +5488,7 @@ Transform:
   - {fileID: 1628471578}
   - {fileID: 1354712038}
   - {fileID: 1929844501}
+  - {fileID: 1789033192}
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -5538,6 +5559,81 @@ MonoBehaviour:
         m_Calls: []
   m_LegacyBlendHint: 0
   m_ComponentOwner: {fileID: 621551930}
+--- !u!1 &964451285
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 964451286}
+  - component: {fileID: 964451288}
+  - component: {fileID: 964451287}
+  m_Layer: 5
+  m_Name: Inside
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &964451286
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964451285}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1237626550}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -5.4190063, y: -2.4631958}
+  m_SizeDelta: {x: -43.0592, y: -32.7786}
+  m_Pivot: {x: 0.58883524, y: 0.5751447}
+--- !u!114 &964451287
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964451285}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 0.42769682, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &964451288
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 964451285}
+  m_CullTransparentMesh: 1
 --- !u!1 &990458825
 GameObject:
   m_ObjectHideFlags: 0
@@ -5598,11 +5694,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &990458829
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5714,11 +5810,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1016932073
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5830,11 +5926,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1027797649
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -5946,11 +6042,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1032226125
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6062,11 +6158,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1054501011
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6241,11 +6337,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!114 &1058215632
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6261,51 +6357,6 @@ MonoBehaviour:
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
---- !u!1 &1060580192
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1060580194}
-  - component: {fileID: 1060580193}
-  m_Layer: 0
-  m_Name: VelocitySystem
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1060580193
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060580192}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 47a2e3abc6bfc1f45906211f5b8ad6be, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  veloValor: 0.3
-  addToVelo: 0.1
---- !u!4 &1060580194
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1060580192}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -2.2742124, y: 1.2702761, z: -1.8028471}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1337683141}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1078951501
 GameObject:
   m_ObjectHideFlags: 0
@@ -6398,11 +6449,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1100522445
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6514,11 +6565,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1113485801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -6599,7 +6650,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1337683141}
-  m_RootOrder: 4
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1177501027
 MonoBehaviour:
@@ -6613,8 +6664,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6f3565d7e5952964db7f03652ca78b37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  setEnergyBar: {fileID: 1237626551}
   txt_distance: {fileID: 212574892}
-  velocitySystem: {fileID: 1060580193}
 --- !u!1 &1204502862
 GameObject:
   m_ObjectHideFlags: 0
@@ -6676,11 +6727,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1204502866
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6819,13 +6870,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
-  speed: 4
+  speed: 8
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1204747208
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6963,11 +7014,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1211125389
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7019,6 +7070,149 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1237626549
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1237626550}
+  - component: {fileID: 1237626554}
+  - component: {fileID: 1237626553}
+  - component: {fileID: 1237626552}
+  - component: {fileID: 1237626551}
+  m_Layer: 5
+  m_Name: EnergyBar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1237626550
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237626549}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 1956046260}
+  - {fileID: 964451286}
+  m_Father: {fileID: 354375752}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -561, y: -41}
+  m_SizeDelta: {x: 240.1863, y: 100}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1237626551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237626549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5bd9211584a1a39429ea84f445c2c6ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  slider: {fileID: 0}
+--- !u!114 &1237626552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237626549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Navigation:
+    m_Mode: 0
+    m_WrapAround: 0
+    m_SelectOnUp: {fileID: 0}
+    m_SelectOnDown: {fileID: 0}
+    m_SelectOnLeft: {fileID: 0}
+    m_SelectOnRight: {fileID: 0}
+  m_Transition: 0
+  m_Colors:
+    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
+    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
+    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
+    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_ColorMultiplier: 1
+    m_FadeDuration: 0.1
+  m_SpriteState:
+    m_HighlightedSprite: {fileID: 0}
+    m_PressedSprite: {fileID: 0}
+    m_SelectedSprite: {fileID: 0}
+    m_DisabledSprite: {fileID: 0}
+  m_AnimationTriggers:
+    m_NormalTrigger: Normal
+    m_HighlightedTrigger: Highlighted
+    m_PressedTrigger: Pressed
+    m_SelectedTrigger: Selected
+    m_DisabledTrigger: Disabled
+  m_Interactable: 0
+  m_TargetGraphic: {fileID: 1237626553}
+  m_FillRect: {fileID: 964451286}
+  m_HandleRect: {fileID: 0}
+  m_Direction: 0
+  m_MinValue: 0
+  m_MaxValue: 4
+  m_WholeNumbers: 1
+  m_Value: 4
+  m_OnValueChanged:
+    m_PersistentCalls:
+      m_Calls: []
+--- !u!114 &1237626553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237626549}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.03773582, g: 0.027589869, b: 0.027589869, a: 0.39607844}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1237626554
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237626549}
+  m_CullTransparentMesh: 1
 --- !u!1 &1247857625
 GameObject:
   m_ObjectHideFlags: 0
@@ -7137,11 +7331,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1266565206
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7248,7 +7442,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1337683141}
-  m_RootOrder: 3
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1279325620
 MonoBehaviour:
@@ -7323,13 +7517,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
-  speed: 4
+  speed: 8
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1330441794
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7434,7 +7628,6 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 1060580194}
   - {fileID: 1807651893}
   - {fileID: 354591320}
   - {fileID: 1279325619}
@@ -7503,11 +7696,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1340816801
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7677,13 +7870,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
-  speed: 4
+  speed: 8
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1363320388
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -7953,11 +8146,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1388180595
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8069,11 +8262,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1459300663
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8186,13 +8379,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
-  speed: 4
+  speed: 8
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1513387674
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8330,11 +8523,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1513495711
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8415,7 +8608,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1337683141}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1513765124
 MonoBehaviour:
@@ -8489,11 +8682,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1600579378
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8605,11 +8798,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1614404589
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8721,11 +8914,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1619354314
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -8838,11 +9031,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1621253849
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9011,11 +9204,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1710361887
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9154,11 +9347,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1746230603
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9296,11 +9489,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1753865520
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9463,11 +9656,68 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
+--- !u!1 &1789033191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1789033192}
+  - component: {fileID: 1789033193}
+  m_Layer: 7
+  m_Name: OffLimitesDown (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1789033192
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789033191}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -9.79, y: 0.53, z: 1.0316439}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 935568981}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!61 &1789033193
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1789033191}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -1.3812308, y: -0.3348794}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 3.354659, y: 11.776704}
+  m_EdgeRadius: 0
 --- !u!1 &1791367196
 GameObject:
   m_ObjectHideFlags: 0
@@ -9528,11 +9778,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1791367200
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9612,7 +9862,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 1337683141}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1809383129
 GameObject:
@@ -9705,11 +9955,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1829346554
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -9822,11 +10072,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1867627555
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9964,11 +10214,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &1889846925
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -10081,11 +10331,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1921699655
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10254,13 +10504,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
-  speed: 4
+  speed: 8
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1942660650
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10399,13 +10649,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
   - {fileID: 1354712037}
-  speed: 4
+  speed: 8
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1946215757
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10483,6 +10733,81 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1956046259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1956046260}
+  - component: {fileID: 1956046262}
+  - component: {fileID: 1956046261}
+  m_Layer: 5
+  m_Name: Inside (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1956046260
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956046259}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 1237626550}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 18.6965, y: -18.6964}
+  m_SizeDelta: {x: 29.8512, y: 62.6072}
+  m_Pivot: {x: 1, y: 1}
+--- !u!114 &1956046261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956046259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.03773582, g: 0.027589869, b: 0.027589869, a: 0.39607844}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1956046262
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1956046259}
+  m_CullTransparentMesh: 1
 --- !u!1 &1963518351
 GameObject:
   m_ObjectHideFlags: 0
@@ -10544,11 +10869,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!61 &1963518356
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10966,11 +11291,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &2038708820
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11161,11 +11486,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &2083596112
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11411,11 +11736,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &2118373828
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -11527,11 +11852,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d41216a832d4f37458c2b80fe578e1e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocitySystem: {fileID: 1060580193}
   pivot:
   - {fileID: 1628471577}
   - {fileID: 1354712037}
   speed: 4
+  distanceManager: {fileID: 1177501027}
 --- !u!212 &2130050504
 SpriteRenderer:
   m_ObjectHideFlags: 0

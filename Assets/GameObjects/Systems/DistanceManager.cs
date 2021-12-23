@@ -6,43 +6,49 @@ using System;
 
 public class DistanceManager : MonoBehaviour
 {
-    int distance;
+    int distance, CountToTen, number = 1;
     string display;
     float externalVelocity;
+    bool goingUp;
+
+    [Header("Energy Bar")]
+    [SerializeField] SetEnergiBar setEnergyBar;
 
     [Header("Distance Display Text")]
     [SerializeField] TMP_Text txt_distance;
-
-    [Header("Velocity System")]
-    [SerializeField] VelocitySystem velocitySystem;
-
 
     private void Awake()
     {
         StartCoroutine(AddDistance());
         display = ("M");
-        externalVelocity = velocitySystem.GetVeloValor();
+        
     }
 
     IEnumerator AddDistance()
     {
         while (true)
         {
-            VelocityChange();
-            yield return new WaitForSeconds(externalVelocity);
-            Debug.Log("external" + externalVelocity);
-            distance++;
+            yield return new WaitForSeconds(1);
+            CountToTen++;
+            if (CountToTen > 9) 
+            {
+                number++;
+                CountToTen = 0;
+                goingUp = true;
+                setEnergyBar.SetEnergy(-1);
+            }
+            else 
+            {
+                goingUp = false;
+            }
+            distance += number;
             txt_distance.text = distance.ToString() + display;
         }
     }
 
-    void VelocityChange() 
+    public bool KnowingWhenToRun() 
     {
-        bool itChange = velocitySystem.GetAceleracionValor();
-        if (itChange) 
-        {
-            externalVelocity = velocitySystem.GetVeloValor();
-        }
+        return goingUp;
     }
 
 }

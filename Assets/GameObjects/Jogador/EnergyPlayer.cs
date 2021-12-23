@@ -10,6 +10,22 @@ public class EnergyPlayer : MonoBehaviour
     [Header("Canvas")]
     [SerializeField] GameObject canvasControles, canvasDeath;
 
+    [Header("Energy Bar")]
+    [SerializeField] SetEnergiBar setEnergyBar;
+
+    private void Update()
+    {
+        EnergyIsEmpity();
+    }
+
+    void EnergyIsEmpity()
+    {
+        if(setEnergyBar.slider.value < 1) 
+        {
+            PlayerDied();
+        }
+    }
+
     public void PlayerDied()
     {
         pauseGame.Pause();
