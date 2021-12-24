@@ -23,7 +23,7 @@ public class MovementProp : MonoBehaviour
     {
         if (distanceManager.KnowingWhenToRun()) 
         {
-            speed += 0.05f;
+            speed += 0.035f;
         }
     }
 

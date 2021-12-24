@@ -6,6 +6,9 @@ public class PauseGame : MonoBehaviour
 {
     bool isPaused;
 
+    [Header("PausePanel")]
+    [SerializeField] GameObject panel;
+    
     public void Pause()
     {
         if (!isPaused)
@@ -16,6 +19,13 @@ public class PauseGame : MonoBehaviour
         {
             Time.timeScale = 1;
             isPaused = false;
+            panel.SetActive(isPaused);
         }
     }
+
+    public void PausePanel()
+    {
+        panel.SetActive(isPaused);
+    }
+
 }

@@ -20,4 +20,9 @@ public class SceneControler : MonoBehaviour
     {
         SceneManager.LoadScene(current, LoadSceneMode.Single);
     }
+
+    public void SairDoJogo() 
+    {
+        Application.Quit();
+    }
 }

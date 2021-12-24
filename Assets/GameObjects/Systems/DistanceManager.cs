@@ -6,7 +6,7 @@ using System;
 
 public class DistanceManager : MonoBehaviour
 {
-    int distance, CountToTen, number = 1;
+    int distance, CountToTen, number = 5;
     string display;
     float externalVelocity;
     bool goingUp;
@@ -35,7 +35,7 @@ public class DistanceManager : MonoBehaviour
                 number++;
                 CountToTen = 0;
                 goingUp = true;
-                setEnergyBar.SetEnergy(-1);
+                setEnergyBar.SetEnergy(-3);
             }
             else 
             {
